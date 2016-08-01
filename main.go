@@ -15,5 +15,5 @@ func main() {
 		w.Write(responseData)
 	})
 	fmt.Printf("Listening on port 3000\n")
-	http.ListenAndServe(":3000", nil)
+	http.ListenAndServe(":8080", nil)
 }
